@@ -1,0 +1,91 @@
+.everything {
+    background-color: white;
+    opacity: 0.7;
+    filter: alpha(opacity=50);
+    color: black;
+}
+
+.firstRow {
+    display: flex;
+}
+
+.fir {
+    padding: 5%;
+    text-align: center;
+}
+
+.firstP {
+    display: flex;
+    font-size: 16px;
+}
+
+h3 {
+    text-align: right;
+    margin-left: 70%;
+}
+
+.secondRow {
+    display: flex;
+}
+
+.secondRow img {
+    margin-left: 27%;
+}
+
+.sec {
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.secA {
+    margin-left: 20%;
+}
+
+.secB {
+    margin-left: 30%;
+}
+
+.secButton {
+    margin-top: 15%;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    opacity: 0.9;
+    filter: alpha(opacity=50);
+    background-color: black;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    border-width: 1px;
+    margin-left: 65%;
+    margin-bottom: 20%;
+}
+
+.secButton:hover {
+    cursor: pointer;
+}
+
+input {
+    border-top: 0%;
+    border-bottom: 80%;
+    border-right: 0%;
+    border-left: 0%;
+    border-color: rgb(70, 66, 92);
+    border-radius: 5%;
+    padding: 5%;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+textArea {
+    padding: 10%;
+    height: 170px;
+    border-color: rgb(18, 16, 26);
+    border-radius: 3%;
+    font-size: 16px;
+    font-weight: 600;
+}

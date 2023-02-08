@@ -1,0 +1,191 @@
+body {
+    background: linear-gradient(-45deg, #7e045f, #1d042e, #050c6d, #a7a6d3);
+    background-size: 400% 400%;
+    -webkit-animation: gradient 15s ease infinite;
+    animation: gradient 15s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+h1 {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: 'Lucida Sans Unicode';
+    text-align: center;
+    padding: 3%;
+    opacity: 0.7;
+    filter: alpha(opacity=50);
+}
+
+.navbar {
+    background-color: black;
+    opacity: 0.7;
+    filter: alpha(opacity=50);
+    margin-bottom: 10%;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Lucida Sans Unicode';
+    display: flex;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    cursor: pointer;
+}
+
+.navbar a {
+    color: #FFFFFF;
+}
+
+.navLinks {
+    color: #FFFFFF;
+    float: right;
+}
+
+li {
+    display: inline;
+    padding: 20px;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 26px;
+    font-family: 'Lucida Sans Unicode';
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    opacity: 0.7;
+    filter: alpha(opacity=50);
+}
+
+.bdo1 {
+    background-color: #FFFFFF;
+    opacity: 0.7;
+    filter: alpha(opacity=50);
+    display: flex;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Lucida Sans Unicode';
+    text-align: center;
+    padding: 5%;
+}
+
+.bdoa {
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.bdo1Button {
+    background-color: black;
+    padding: 2%;
+    border-radius: 40px;
+}
+
+.bdo1Button:hover {
+    cursor: pointer;
+}
+
+.h2P {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Lucida Sans Unicode';
+    text-align: center;
+    opacity: 0.7;
+    filter: alpha(opacity=50);
+}
+
+.upper {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.upper img {
+    border-style: inset;
+    border-width: 10px;
+    border-color: #968989;
+}
+
+.con {
+    padding: 35px;
+    color: white;
+    font-size: 18px;
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+}
+
+.con2 {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 35px;
+    color: white;
+    font-size: 18px;
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+}
+
+.conA {
+    text-align: justify;
+}
+
+.button {
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+    background-color: #FFFFFF;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    border-width: 1px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+footer {
+    background-color: #FFFFFF;
+    color: black;
+    opacity: 0.7;
+    filter: alpha(opacity=50);
+}
